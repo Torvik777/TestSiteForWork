@@ -1,0 +1,365 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: 000;
+    font-size: 16px;
+    width: auto;
+    overflow-x: visible;
+    /* position: relative; */
+
+} 
+.container
+{
+    /* width: 1169px; */
+
+}
+/* HEADER */
+.header
+{
+    background-color:#67AEFC; 
+    /* width: 100%; */
+}
+.menu
+{   
+    
+    height: 95px;
+    display: flex;
+    align-items: center;
+
+}
+.logo
+{
+    padding-left: 20%;
+    padding-right:10% ;
+    height: 59px;
+}
+
+.menu ul a
+{   
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right:37px ;
+}
+
+.menu_order
+{   
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    background-color: #75E169;
+    border-radius: 5px;
+    padding: 10px 42px; 
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 10px; 
+}
+.menu_order:hover
+{
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+.menu_order:active
+{
+    color: #67AEFC;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+/* SECTION 1 */
+
+.section_1
+{
+    background-color: #FFFFFF;
+    height: 766px;
+    /* position: relative; */
+}
+.img_sphere_1l
+{   position:absolute;
+    left: 239px;
+    top: 215px;
+   
+    
+}
+.img_ellipse_1l
+{
+    position:absolute;
+    top: 637px;
+    left: -2px;
+   
+}
+.img_wave_1l
+{
+    position:absolute;
+    z-index: 1;
+    top: 703px;
+    left: 65px;
+}
+
+/* CENTER 1 */
+
+.center_1
+{
+    margin-top: 171px;
+    margin-left: 375px;
+    text-align: left;
+    width: 838px;
+    
+}
+.center_1 h1
+{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 62px;
+    padding-right: 275px;
+}
+.center_1 p
+{
+
+    width: 432px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.order
+{   
+    display: block;
+    width: 86px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    background-color: #75E169;
+    border-radius: 5px;
+    border: 1px solid #fff; 
+    padding: 23px 92px; 
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 10px; 
+}
+.order:hover
+{
+    border: 2px solid #67AEFC;
+    border-radius: 5px;
+}
+.order:active
+{
+    background: #67AEFC;
+    border-radius: 5px;
+}
+
+/*RIGHT IMG*/
+
+.img_cart_1r
+{
+    /* position: absolute;
+    z-index: 1;
+    left: 50.68%;
+    right: 39.43%;
+    top: 8.45%;
+    bottom: 90.41%;
+    margin-top: 111px;
+    margin-left: 166px; */
+    width: 621px;
+    position: absolute;
+    /* left: 994px; */
+    right: 305px;
+    top: 206px;
+    z-index: 1;
+
+}
+.img_ellipse2_1r
+{
+    /* position: absolute;
+    left: 1310.5px;
+    top: 177px;
+    left: 1310.5px;
+    top: 177px; */
+    width: 609px;
+    position: absolute;
+    right: 1pt;
+    top: 177px;
+}
+.img_cylinder_1r
+{
+    position: absolute;
+    
+    right: 576px;
+    top: 187px;
+    
+}
+
+/* SECTION 2 */
+.section_2
+{
+    position: relative;
+    background-color:  #DAECFF;
+    /* height: 703px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.acor-container h2
+{
+height: 105px;
+margin-bottom:13px ;
+}
+
+  /* ACORDION */
+
+  .acor-container 
+{
+    margin: 20px 0;
+    width: 1169px;
+    margin-left: 375px;   
+}
+
+.acor_head
+{
+    vertical-align: middle;
+    margin: 0px;
+    
+}
+.acor_head img
+{
+    vertical-align: middle;
+    margin-right:26px ;
+    
+}
+
+.acor_head .img_acord_on
+{
+    display: none;
+    /* visibility: hidden */
+    /* opacity: 0; */
+    
+}
+
+    
+.acor-container h2
+{
+    font-weight: 800;
+    font-size: 32px;
+    line-height:  40px;
+    text-align: center;
+}
+.acor-container .acor-body 
+{
+    width: calc(100%);
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 0;
+    color: rgba(0, 0, 0, 0);
+    background-color: #FFFFFF;
+    line-height: 18px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    
+    transition: color 0.5s, padding 0.5s;
+    overflow: hidden;
+    font-family: Verdana, sans-serif; 
+    font-size: 16px;
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2); */
+}
+.acor-container .acor-body p 
+{
+    margin: 0 0 10px;
+}
+.acor-container label 
+{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    display: block;
+    padding: 15px 20px;
+    width: 100%;
+    color: #111111;
+    font-weight: 300;
+    box-sizing: border-box;
+    border-radius: 15px;
+    z-index: 100;
+    font-family: Verdana, sans-serif;   
+    font-size: 18px;
+    margin: 0 0 5px;
+    transition: color .35s;
+}
+/* дії при наведенні */
+.acor-container label:hover 
+{
+    color: #111111;
+}
+/* приховує чекбокс */
+.acor-container input
+{
+    display: none; 
+}
+/* анімація стрілочки */
+.acor-container label:before 
+{
+    content: '\276F';
+    float: right;
+    color: #000;
+    transform: rotate(90deg);
+    transition: transform .35s;
+}
+/* дія при кліку */
+.acor-container input:checked + label 
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #FFFFFF;
+    color: #111111;
+    /* box-shadow: 0 8px 26px rgba(0,0,0,0.4), 0 28px 30px rgba(0,0,0,0.3); */
+    
+}
+input:checked + label 
+{   
+    /* margin-top: 10px; */
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 125%;
+    border-radius: 0px;
+    
+}
+
+/* повернення до первинного стану */
+.acor-container input:checked + label:before 
+{
+    transition: transform .35s;
+    transform: rotate(-90deg);
+}
+/* випадаючий список */
+.acor-container input:checked + label + .acor-body 
+{
+    height: auto;
+    margin-top: -5px;
+    margin-bottom: 10px;     
+    color: #000;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    padding: 40px 70px 50px 95px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.acor-container p:checked + label + .acor-body
+{
+    border-left: 1px solid #000 ; 
+    background-color: rgb(38, 4, 71);
+    
+
+} 
+.img_bag_2
+{
+    position: absolute;
+    right: 145px;
+    bottom: 92px;
+}
